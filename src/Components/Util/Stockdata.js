@@ -4,7 +4,7 @@ const stockData = {
             "method": "GET",
             "headers": {
                 "x-rapidapi-host": "apidojo-yahoo-finance-v1.p.rapidapi.com",
-                "x-rapidapi-key": ""
+                "x-rapidapi-key": "" // API can be found at https://rapidapi.com/principalapis/api/stock-data-yahoo-finance-alternative/
             }
         })
             .then(res => {
