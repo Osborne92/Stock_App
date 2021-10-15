@@ -15,7 +15,7 @@ Using JavaScript, React, and Yahoo’s fantastic Stock Exchange API, this app fi
 ### Installation
 1. Clone the repo
    ```sh
-   git clone git@github.com:Osborne92/Jammer.git
+   git clone git@github.com:Osborne92/Stock_App.git
    ```
 2. Add react scripts
    ```sh
@@ -25,14 +25,12 @@ Using JavaScript, React, and Yahoo’s fantastic Stock Exchange API, this app fi
    ```sh
    npm start
    ```
-4. Retrieve ClientID key at https://developer.spotify.com/dashboard and click "create an app" and follow instructions to get ClientID key which is connected to your Spotify account. 
-5. Once the clientID is generated, go to the Spotity.js file within the Util folder. Set the variable clientID to your personal generated clientID
+4. Retrieve API key at https://rapidapi.com/principalapis/api/stock-data-yahoo-finance-alternative/. Must create an account to generate key.
+5. Once the key is generated, go to Util/Stockdata.js. Set the rapidapi-key to your personal generated key
 
 <!-- USAGE -->
 ## Usage
-1. In the searchbar, type your favorite song or artist
-2. Add the displayed songs to your playlist by clicking the plus icons next to the songs. 
-3. To save the playlist to your Spotify account, click "Save to Spotify"
+1. Type in a specific stock and location and click search.  
 
 <!-- CONTACT -->
 ## Contact
